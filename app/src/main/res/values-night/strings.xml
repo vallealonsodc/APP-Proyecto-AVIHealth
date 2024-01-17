@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="iniciar_teleconsulta">Iniciar teleconsulta</string>
+    <string name="btn_citas">btn_citas</string>
+    <string name="btn_teleconsulta">btn_teleconsulta</string>
+    <string name="btn_mapa">btn_mapa</string>
+    <string name="txt_usuario">\@aleingmar</string>
+    <string name="icono_settings">icono settings</string>
+    <string name="buscar_citas">Buscar citas</string>
+    <string name="crear_teleconsulta">Crear Teleconsulta</string>
+    <string name="buscar_teleconsulta">Buscar teleconsulta</string>
+</resources>

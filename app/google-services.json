@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "374940531981",
+    "project_id": "gsti-app-cancerpiel-4d943",
+    "storage_bucket": "gsti-app-cancerpiel-4d943.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:374940531981:android:8437166c5066904f360444",
+        "android_client_info": {
+          "package_name": "com.us.app_gsti"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsrhFysERxKYJcYVdEIA7k_gWlEIUQhYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

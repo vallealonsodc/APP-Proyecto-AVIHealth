@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_navegacion"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_gravity="bottom"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:elevation="8dp"
+    android:translationZ="1dp"
+    android:stateListAnimator="@null"
+    android:outlineProvider="bounds">
+    <!-- Fragment del tamaño(width/height) de la barra de navegacion y situado abajo(gravity) -->
+    <!-- match_parent -> Igual de grande que el componente en el que este contenido(El activity). -->
+    <!-- wrap_content -> Se ajusta al tamaño del contenido(El texto del boton). -->
+    <!-- Añade la propiedad de elevación para agregar sombra -->
+    <!-- Añade esta línea para evitar que la sombra se recorte en dispositivos más antiguos -->
+    <!-- LinearLayout con orientación horizontal para colocar los botones uno al lado del otro -->
+
+    <Button
+        android:id="@+id/btn_teleconsulta"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:backgroundTint="@color/white"
+        app:icon="@drawable/imagen_del_mensaje"
+        app:iconGravity="top"
+        app:iconSize="@dimen/icon_size"
+        app:iconTint="@color/black"
+        android:contentDescription="@string/btn_teleconsulta"
+        style="?android:attr/buttonBarButtonStyle" />
+    <!-- estilo específico para el botón que indica que es un barbutton. Si no se pone esto te indica un warning diciendote que el boton tiene  que tener borde, entonces le estamos indicando que este boton es de estilo barra de funcionalidades y no necesita bordes-->
+
+    <!-- Utilizamos layout_weight="1" para que ambos botones ocupen el mismo espacio horizontal -->
+
+    <Button
+        android:id="@+id/btn_citas"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:backgroundTint="@color/white"
+        android:contentDescription="@string/btn_citas"
+        app:icon="@drawable/calendario_reloj"
+        app:iconGravity="top"
+        app:iconSize="@dimen/icon_size"
+        app:iconTint="@color/black" />
+
+    <Button
+        android:id="@+id/btn_mapa"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:backgroundTint="@color/white"
+        android:contentDescription="@string/btn_mapa"
+        app:icon="@drawable/marcador"
+        app:iconGravity="top"
+        app:iconSize="@dimen/icon_size"
+        app:iconTint="@color/black" />
+
+
+
+</LinearLayout>

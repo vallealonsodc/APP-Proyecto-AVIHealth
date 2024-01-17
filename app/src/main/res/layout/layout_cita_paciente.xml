@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:orientation="horizontal"
+    android:background="@drawable/border"
+    android:layout_marginBottom="16dp"
+    >
+
+    <!-- Fecha y hora de la cita alineadas a la izquierda -->
+    <!-- Linea divisora vertical -->
+    <View
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="3.2dp"
+        android:layout_marginBottom="3.2dp"
+        android:layout_marginTop="3.2dp"
+        android:background="@color/verde_muy_clarito"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:id="@+id/fechaCita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_gravity="center_vertical"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:id="@+id/horaCita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_gravity="center_vertical"
+            android:textSize="14sp"
+            />
+    </LinearLayout>
+
+    <!-- Linea divisora vertical -->
+    <View
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="3.2dp"
+        android:layout_marginTop="3.2dp"
+        android:background="@color/gris_clarito"/>
+
+    <!-- Otros TextViews alineados verticalmente a la derecha de la línea divisora -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/consulta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginStart="10dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/hospital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginStart="10dp" />
+
+        <TextView
+            android:id="@+id/medico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginStart="10dp" />
+    </LinearLayout>
+</LinearLayout>

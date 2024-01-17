@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">AVI Health</string>
+    <string name="iniciar_teleconsulta">Iniciar teleconsulta</string>
+    <string name="btn_citas">btn_citas</string>
+    <string name="btn_teleconsulta">btn_teleconsulta</string>
+    <string name="btn_mapa">btn_mapa</string>
+    <string name="txt_usuario">\@aleingmar</string>
+    <string name="icono_settings">icono settings</string>
+    <string name="buscar_citas">Buscar citas</string>
+    <string name="Email" />
+    <string name="email">Email</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="iniciar_sesion">Iniciar sesión</string>
+    <string name="fecha_de_nacimiento">Fecha de nacimiento</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="nombre">Nombre</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="telefono">Telefono</string>
+    <string name="crear_paciente">Crear paciente</string>
+    <string name="Telefono">Número de telefono</string>
+    <string name="log_out">Cerrar sesión</string>
+    <string name="mi_perfil">Mi perfil</string>
+    <string name="splashscreen">SplashScreen</string>
+    <string name="email_de_la_cuenta">Email de la cuenta</string>
+    <string name="crear_teleconsulta">Crear Teleconsulta</string>
+    <string name="buscar_paciente">Buscar paciente</string>
+    <string name="buscar_teleconsulta">Buscar teleconsulta</string>
+    <string name="a_adir_citas">añadir citas</string>
+    <string name="a_adir_teleconsulta">añadir teleconsulta</string>
+    <string name="hospitales_cercanos">Hospitales cercanos</string>
+    <string name="mis_citas">Mis citas</string>
+    <string name="teleconsultas">Teleconsultas</string>
+    <string name="cancelar_cita">Cancelar cita</string>
+    <string name="fecha_de_la_cita">Fecha de la cita</string>
+    <string name="hint_email">user@gmail.com</string>
+</resources>
